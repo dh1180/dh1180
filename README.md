@@ -4,9 +4,9 @@
 [![dh1180 github stats](https://github-readme-stats.vercel.app/api/top-langs/?username=dh1180&show_icons=true&hide_border=true&title_color=004386&icon_color=004386&layout=compact)](https://github.com/dh1180)
 
 ## 🙋‍♂️ 개인정보
+* 2004.01.01
 * 한국항공대학교 소프트웨어학과 22학번
 * 해군병 691기 전산병 324기 (후반기 1등)
-* mjdh1936@gmail.com
 
 ## 💻 백준
 
