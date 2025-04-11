@@ -8,6 +8,9 @@
 * 한국항공대학교 소프트웨어학과 22학번
 * 해군병 691기 전산병 324기 (후반기 1등)
 
+## 📝 블로그
+[![Visit my Tistory Blog](https://capsule-render.vercel.app/api?type=soft&color=gradient&text=티스토리%20블로그%20입니다!&fontColor=ffffff&fontSize=30)](https://dong1936.tistory.com)
+
 ## 💻 백준
 
 [![Solved.ac
