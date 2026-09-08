@@ -5,7 +5,7 @@
 ### 👋 안녕하세요, 김동현입니다.
 
 **웹 서비스를 직접 만들고 배포한 뒤, 운영하면서 발견한 문제를 계속 개선해 나가는 개발자입니다.**  
-**Django와 Spring Boot를 중심으로 백엔드를 개발하고, 필요한 영역은 프론트엔드와 배포까지 직접 다룹니다.**
+**Django와 Spring Boot를 중심으로 백엔드를 개발하고, React · React Native를 활용한 프론트엔드와 모바일 앱도 직접 구현합니다.**
 
 <p>
   <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/기술%20블로그-000000?style=for-the-badge&logo=tistory&logoColor=white" /></a>
@@ -20,6 +20,7 @@
 ## 🚀 소개
 
 - 🌐 **Django · Spring Boot · ASP.NET Core**를 활용해 여러 웹 서비스를 직접 개발해 왔습니다.
+- 📱 웹뿐 아니라 **React Native · Expo · TypeScript**를 활용한 모바일 앱도 직접 설계하고 구현하고 있습니다.
 - 🧩 **소셜 로그인 · JWT 인증 · 데이터베이스 모델링 · REST API · 웹 크롤링 · 외부 API 연동** 등 서비스의 핵심 기능을 구현해 왔습니다.
 - 🚀 개발에서 끝내지 않고 **Docker · Railway · Vercel · Azure · PythonAnywhere · Fly.io** 등을 이용해 실제 서비스로 배포하고 운영해 본 경험이 있습니다.
 - 🔧 로컬에서는 보이지 않던 **DB · ORM · 인증 · 배포 · 도메인 · 프론트엔드 문제**를 직접 분석하고 해결하는 과정을 좋아합니다.
@@ -91,12 +92,28 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+### 🇨🇳 [HSK Plus Ultra](https://github.com/dh1180/HSK_Plus_Ultra) · NEW
+
+**HSK 3.0 어휘를 필요한 시점에 다시 보여주는 모바일 단어 학습 앱**
+
+React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21일 → 장기 기억`으로 이어지는 복습 로직을 직접 설계했습니다. 급수별 어휘 학습, 복습 우선 학습량 구성, 중국어 TTS, 로컬 학습 진행 저장 등을 구현했습니다.
+
+`TypeScript` `React Native` `Expo` `TTS` `Spaced Repetition`
+
+🔗 **개발 기록:** [기술 블로그 글 보기](https://dong1936.tistory.com/86)
+
+</td>
+</tr>
 </table>
 
 ---
 
 ## 🤝 팀 프로젝트 & 활동
 
+- 🥇 **2022 슬기로운 코딩생활 최우승 · LOS** — Arduino/C++와 초음파 센서, Ubidots를 활용한 지하철 잔여좌석 확인 시스템 MVP 개발
 - 🏆 **ICT 창업 메이커톤 우수상 · GiTeuk** — 기부금의 흐름을 확인할 수 있는 기부 인프라 및 커머스 플랫폼 개발
 - 🚀 **멋쟁이사자처럼 중앙 해커톤 2차 예선 진출 · HiDaddy** — Spring Boot 백엔드 개발, 소셜 로그인 및 사용자 기능 구현
 - 🧑‍💻 개인 프로젝트뿐 아니라 팀 프로젝트에서도 **API 설계 · 인증 · 데이터 처리 · 배포 환경의 문제를 해결하는 백엔드 역할**을 경험했습니다.
@@ -108,7 +125,8 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
 ```text
 Backend      → Django · Spring Boot · ASP.NET Core · REST API
 Data         → PostgreSQL · MySQL · Azure SQL · Crawling · Public API
-Frontend     → JavaScript · React · HTML · CSS
+Frontend     → JavaScript · TypeScript · React · HTML · CSS
+Mobile       → React Native · Expo · Local Storage · TTS
 Auth         → Social Login · JWT · Session / Cookie
 Deploy       → Docker · Railway · Vercel · Azure · PythonAnywhere · Fly.io
 Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비스 개선
@@ -120,7 +138,7 @@ Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비�
 
 ### 언어
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,cs,javascript,cpp,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,java,cs,javascript,typescript,cpp,html,css" />
 </p>
 
 ### 백엔드 & 데이터베이스
@@ -128,9 +146,9 @@ Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비�
   <img src="https://skillicons.dev/icons?i=django,spring,dotnet,postgres,mysql" />
 </p>
 
-### 프론트엔드
+### 프론트엔드 & 모바일
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vite,jquery,bootstrap" />
+  <img src="https://skillicons.dev/icons?i=react,vite,bootstrap" />
 </p>
 
 ### 배포 & 개발 도구
