@@ -1,13 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:161B22,100:1F6FEB&text=Donghyun%20Kim&fontColor=FFFFFF&fontSize=48&fontAlignY=38&desc=Software%20Developer%20%7C%20Backend%20%C2%B7%20Network%20%C2%B7%20Security&descAlignY=58&descSize=17&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:161B22,100:1F6FEB&text=Donghyun%20Kim&fontColor=FFFFFF&fontSize=48&fontAlignY=42&animation=fadeIn" width="100%" />
 
-### 👋 Hi, I'm Donghyun
+### 👋 안녕하세요, 김동현입니다.
 
-**I build practical systems, turn ideas into working products, and enjoy digging into how networks and software behave under the hood.**
+**아이디어를 실제로 동작하는 서비스로 만드는 것을 좋아하는 개발자입니다.**  
+**백엔드 · 네트워크 · 보안 분야를 중심으로 공부하고 직접 구현하며 경험을 쌓고 있습니다.**
 
 <p>
-  <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-000000?style=for-the-badge&logo=tistory&logoColor=white" /></a>
+  <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/기술%20블로그-000000?style=for-the-badge&logo=tistory&logoColor=white" /></a>
   <a href="https://solved.ac/dh1180"><img src="https://img.shields.io/badge/Solved.ac-17CE3A?style=for-the-badge&logo=solved.ac&logoColor=white" /></a>
   <a href="https://github.com/dh1180"><img src="https://img.shields.io/badge/GitHub-dh1180-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 </p>
@@ -16,17 +17,17 @@
 
 ---
 
-## 🚀 About Me
+## 🚀 소개
 
-- 🧩 Building **full-stack products** from data collection and backend design to deployment
-- 🛡️ Exploring **AI-assisted web security / WAF automation**
-- 📡 Studying **LoRa mesh, TDMA, and wireless networking for multi-node systems**
-- ⚙️ Interested in **backend engineering, networking, security, data-driven services, and system design**
-- 🔨 I like projects that end with **something people can actually use**
+- 🧩 **데이터 수집 → 백엔드 설계 → 프론트엔드 → 배포**까지 직접 구현하는 것을 좋아합니다.
+- 🛡️ **AI 기반 웹 보안 / WAF 자동화**를 연구하고 있습니다.
+- 📡 **LoRa Mesh · TDMA · 다중 노드 무선 네트워크**를 공부하고 있습니다.
+- ⚙️ **백엔드 · 네트워크 · 보안 · 데이터 기반 서비스 · 시스템 설계**에 관심이 많습니다.
+- 🔨 단순히 코드를 작성하는 것보다 **실제로 사용할 수 있는 결과물을 만드는 것**을 좋아합니다.
 
 ---
 
-## 🌟 Featured Projects
+## 🌟 주요 프로젝트
 
 <table>
 <tr>
@@ -34,26 +35,26 @@
 
 ### 🎓 [K-unirank](https://github.com/dh1180/K-unirank_v2)
 
-**University admissions & public-data platform**
+**대학 입결 · 공공데이터 통합 플랫폼**
 
-Public admissions data, university disclosure indicators, and user preference rankings in one service.
+대학별 입시 결과와 공식 공시 지표를 구조화하고, 사용자 VS 선택을 기반으로 대학 선호도 랭킹을 제공하는 서비스입니다.
 
 `Python` `Django` `PostgreSQL` `Docker` `Railway`
 
-🔗 **Live:** [k-unirank.com](https://k-unirank.com)
+🔗 **서비스:** [k-unirank.com](https://k-unirank.com)
 
 </td>
 <td width="50%" valign="top">
 
 ### 🟡 [GoldenDaughter](https://github.com/dh1180/GoldenDaughter_FrontEnd)
 
-**React + Spring Boot full-stack service**
+**React + Spring Boot 풀스택 서비스**
 
-Mobile-first streak tracking, daily check-ins, rankings, crawling, JWT authentication, and Android WebView packaging.
+기록 관리, 일일 체크인, 사용자 랭킹, 웹 크롤링, JWT 인증과 Android WebView 앱까지 구현한 모바일 중심 서비스입니다.
 
 `React` `Spring Boot` `PostgreSQL` `Vercel` `Railway`
 
-🔗 **Live:** [golden-daughter.kro.kr](https://golden-daughter.kro.kr)
+🔗 **서비스:** [golden-daughter.kro.kr](https://golden-daughter.kro.kr)
 
 </td>
 </tr>
@@ -62,9 +63,9 @@ Mobile-first streak tracking, daily check-ins, rankings, crawling, JWT authentic
 
 ### 🌌 [APOD](https://github.com/dh1180/APOD)
 
-**NASA Astronomy Picture of the Day web app**
+**NASA 오늘의 천문 사진 웹 서비스**
 
-Automatically organizes NASA APOD content into a blog-style web service with comments, random browsing, and date-based search.
+NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로그 형태로 제공하고, 댓글 · 랜덤 조회 · 날짜별 검색 기능을 구현했습니다.
 
 `C#` `ASP.NET Core` `JavaScript` `Azure SQL`
 
@@ -73,11 +74,11 @@ Automatically organizes NASA APOD content into a blog-style web service with com
 
 ### 🇨🇳 [HSK Plus Ultra](https://github.com/dh1180/HSK_Plus_Ultra)
 
-**Spaced-repetition vocabulary learning project**
+**간격 반복 기반 중국어 단어 학습 프로젝트**
 
-A learning app project focused on staged review cycles and long-term vocabulary retention.
+단계별 복습 주기와 장기 기억 전환 구조를 이용해 HSK 단어를 효율적으로 반복 학습할 수 있도록 개발 중인 프로젝트입니다.
 
-`In Progress` `Learning System` `Product Design`
+`개발 중` `간격 반복 학습` `학습 서비스`
 
 </td>
 </tr>
@@ -85,42 +86,42 @@ A learning app project focused on staged review cycles and long-term vocabulary 
 
 ---
 
-## 🔬 Current Focus
+## 🔬 현재 관심 분야
 
 ```text
-Security        → AI-assisted WAF rules · web attack detection · security automation
-Networking      → LoRa mesh · TDMA · multi-node / multi-robot communication
-Backend         → API design · authentication · relational data modeling · deployment
-Product         → Turning small ideas into usable web & mobile services
+보안        → AI 기반 WAF 룰 생성 · 웹 공격 탐지 · 보안 자동화
+네트워크    → LoRa Mesh · TDMA · 다중 노드 / 다중 로봇 통신
+백엔드      → API 설계 · 인증 · 관계형 데이터 모델링 · 서비스 배포
+서비스 개발 → 아이디어를 실제 사용 가능한 웹 / 모바일 서비스로 구현
 ```
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 기술 스택
 
-### Languages
+### 언어
 <p>
   <img src="https://skillicons.dev/icons?i=python,java,c,cs,javascript,html,css" />
 </p>
 
-### Backend & Data
+### 백엔드 & 데이터베이스
 <p>
   <img src="https://skillicons.dev/icons?i=django,spring,dotnet,postgres,mysql" />
 </p>
 
-### Frontend & DevOps
+### 프론트엔드 & DevOps
 <p>
   <img src="https://skillicons.dev/icons?i=react,vite,docker,git,github,linux,vercel" />
 </p>
 
-### Embedded / Tools
+### 임베디드 & 개발 도구
 <p>
   <img src="https://skillicons.dev/icons?i=arduino,vscode,idea,postman" />
 </p>
 
 ---
 
-## 📊 GitHub
+## 📊 GitHub 활동
 
 <div align="center">
 
@@ -135,11 +136,11 @@ Product         → Turning small ideas into usable web & mobile services
 
 ---
 
-## 🧠 Problem Solving
+## 🧠 문제 해결
 
 <div align="center">
   <a href="https://solved.ac/dh1180">
-    <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=dh1180" alt="Solved.ac Profile" />
+    <img src="https://mazassumnida.wtf/api/v2/generate_badge?boj=dh1180" alt="Solved.ac 프로필" />
   </a>
 </div>
 
@@ -147,9 +148,9 @@ Product         → Turning small ideas into usable web & mobile services
 
 <div align="center">
 
-### Build. Break. Learn. Improve. 🔁
+### 만들고, 부딪히고, 배우고, 개선합니다. 🔁
 
-<sub>Thanks for visiting my GitHub.</sub>
+<sub>방문해 주셔서 감사합니다.</sub>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:0D1117,50:161B22,100:1F6FEB" width="100%" />
 
