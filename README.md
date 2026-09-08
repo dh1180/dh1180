@@ -4,8 +4,8 @@
 
 ### 👋 안녕하세요, 김동현입니다.
 
-**아이디어를 실제로 동작하는 서비스로 만드는 것을 좋아하는 개발자입니다.**  
-**백엔드 · 네트워크 · 보안 분야를 중심으로 공부하고 직접 구현하며 경험을 쌓고 있습니다.**
+**웹 서비스를 직접 만들고 배포한 뒤, 운영하면서 발견한 문제를 계속 개선해 나가는 개발자입니다.**  
+**Django와 Spring Boot를 중심으로 백엔드를 개발하고, 필요한 영역은 프론트엔드와 배포까지 직접 다룹니다.**
 
 <p>
   <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/기술%20블로그-000000?style=for-the-badge&logo=tistory&logoColor=white" /></a>
@@ -19,11 +19,12 @@
 
 ## 🚀 소개
 
-- 🧩 **데이터 수집 → 백엔드 설계 → 프론트엔드 → 배포**까지 직접 구현하는 것을 좋아합니다.
-- 🛡️ **AI 기반 웹 보안 / WAF 자동화**를 연구하고 있습니다.
-- 📡 **LoRa Mesh · TDMA · 다중 노드 무선 네트워크**를 공부하고 있습니다.
-- ⚙️ **백엔드 · 네트워크 · 보안 · 데이터 기반 서비스 · 시스템 설계**에 관심이 많습니다.
-- 🔨 단순히 코드를 작성하는 것보다 **실제로 사용할 수 있는 결과물을 만드는 것**을 좋아합니다.
+- 🌐 **Django · Spring Boot · ASP.NET Core**를 활용해 여러 웹 서비스를 직접 개발해 왔습니다.
+- 🧩 **소셜 로그인 · JWT 인증 · 데이터베이스 모델링 · REST API · 웹 크롤링 · 외부 API 연동** 등 서비스의 핵심 기능을 구현해 왔습니다.
+- 🚀 개발에서 끝내지 않고 **Docker · Railway · Vercel · Azure · PythonAnywhere · Fly.io** 등을 이용해 실제 서비스로 배포하고 운영해 본 경험이 있습니다.
+- 🔧 로컬에서는 보이지 않던 **DB · ORM · 인증 · 배포 · 도메인 · 프론트엔드 문제**를 직접 분석하고 해결하는 과정을 좋아합니다.
+- 📈 특히 **K-unirank**처럼 직접 만든 서비스를 장기간 운영하면서 사용자 경험과 데이터 구조를 계속 개선해 나가는 과정에 관심이 많습니다.
+- ✍️ 개발 중 부딪힌 문제와 해결 과정은 [기술 블로그](https://dong1936.tistory.com/)에 꾸준히 기록하고 있습니다.
 
 ---
 
@@ -39,6 +40,8 @@
 
 대학별 입시 결과와 공식 공시 지표를 구조화하고, 사용자 VS 선택을 기반으로 대학 선호도 랭킹을 제공하는 서비스입니다.
 
+단순 투표 서비스로 시작해 데이터 구조, 랭킹 시스템, 입시 데이터 수집, 배포 환경까지 지속적으로 확장하고 있습니다.
+
 `Python` `Django` `PostgreSQL` `Docker` `Railway`
 
 🔗 **서비스:** [k-unirank.com](https://k-unirank.com)
@@ -52,6 +55,8 @@
 
 기록 관리, 일일 체크인, 사용자 랭킹, 웹 크롤링, JWT 인증과 Android WebView 앱까지 구현한 모바일 중심 서비스입니다.
 
+프론트엔드부터 백엔드, 데이터베이스, 배포까지 하나의 서비스로 연결했습니다.
+
 `React` `Spring Boot` `PostgreSQL` `Vercel` `Railway`
 
 🔗 **서비스:** [golden-daughter.kro.kr](https://golden-daughter.kro.kr)
@@ -61,24 +66,28 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🌌 [APOD](https://github.com/dh1180/APOD)
+### 🧑‍💻 [Devroup](https://github.com/dh1180/Devroup)
 
-**NASA 오늘의 천문 사진 웹 서비스**
+**개발자 토이 프로젝트 공유 커뮤니티**
 
-NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로그 형태로 제공하고, 댓글 · 랜덤 조회 · 날짜별 검색 기능을 구현했습니다.
+개발자들이 자신의 토이 프로젝트를 등록하고 공유할 수 있도록 만든 커뮤니티 서비스입니다.
 
-`C#` `ASP.NET Core` `JavaScript` `Azure SQL`
+Django 기반으로 회원 · 게시글 · 검색 · 정렬 · 소셜 로그인 등을 구현하고, MySQL과 Docker를 활용해 실제 서비스 배포까지 진행했습니다.
+
+`Python` `Django` `MySQL` `JavaScript` `Docker`
 
 </td>
 <td width="50%" valign="top">
 
-### 🇨🇳 [HSK Plus Ultra](https://github.com/dh1180/HSK_Plus_Ultra)
+### 🌌 [APOD](https://github.com/dh1180/APOD)
 
-**간격 반복 기반 중국어 단어 학습 프로젝트**
+**NASA 오늘의 천문 사진 웹 서비스**
 
-단계별 복습 주기와 장기 기억 전환 구조를 이용해 HSK 단어를 효율적으로 반복 학습할 수 있도록 개발 중인 프로젝트입니다.
+NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로그 형태로 제공하는 웹 서비스입니다.
 
-`개발 중` `간격 반복 학습` `학습 서비스`
+댓글, 랜덤 조회, 날짜별 검색을 구현하고 ASP.NET Core와 Azure를 이용해 처음으로 직접 배포·운영해 본 프로젝트입니다.
+
+`C#` `ASP.NET Core` `JavaScript` `Azure SQL`
 
 </td>
 </tr>
@@ -86,13 +95,23 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
 
 ---
 
-## 🔬 현재 관심 분야
+## 🤝 팀 프로젝트 & 활동
+
+- 🏆 **ICT 창업 메이커톤 우수상 · GiTeuk** — 기부금의 흐름을 확인할 수 있는 기부 인프라 및 커머스 플랫폼 개발
+- 🚀 **멋쟁이사자처럼 중앙 해커톤 2차 예선 진출 · HiDaddy** — Spring Boot 백엔드 개발, 소셜 로그인 및 사용자 기능 구현
+- 🧑‍💻 개인 프로젝트뿐 아니라 팀 프로젝트에서도 **API 설계 · 인증 · 데이터 처리 · 배포 환경의 문제를 해결하는 백엔드 역할**을 경험했습니다.
+
+---
+
+## 🛠️ 주로 해온 것
 
 ```text
-보안        → AI 기반 WAF 룰 생성 · 웹 공격 탐지 · 보안 자동화
-네트워크    → LoRa Mesh · TDMA · 다중 노드 / 다중 로봇 통신
-백엔드      → API 설계 · 인증 · 관계형 데이터 모델링 · 서비스 배포
-서비스 개발 → 아이디어를 실제 사용 가능한 웹 / 모바일 서비스로 구현
+Backend      → Django · Spring Boot · ASP.NET Core · REST API
+Data         → PostgreSQL · MySQL · Azure SQL · Crawling · Public API
+Frontend     → JavaScript · React · HTML · CSS
+Auth         → Social Login · JWT · Session / Cookie
+Deploy       → Docker · Railway · Vercel · Azure · PythonAnywhere · Fly.io
+Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비스 개선
 ```
 
 ---
@@ -101,7 +120,7 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
 
 ### 언어
 <p>
-  <img src="https://skillicons.dev/icons?i=python,java,c,cs,javascript,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,java,cs,javascript,cpp,html,css" />
 </p>
 
 ### 백엔드 & 데이터베이스
@@ -109,14 +128,14 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
   <img src="https://skillicons.dev/icons?i=django,spring,dotnet,postgres,mysql" />
 </p>
 
-### 프론트엔드 & DevOps
+### 프론트엔드
 <p>
-  <img src="https://skillicons.dev/icons?i=react,vite,docker,git,github,linux,vercel" />
+  <img src="https://skillicons.dev/icons?i=react,vite,jquery,bootstrap" />
 </p>
 
-### 임베디드 & 개발 도구
+### 배포 & 개발 도구
 <p>
-  <img src="https://skillicons.dev/icons?i=arduino,vscode,idea,postman" />
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,vercel,azure,vscode,idea" />
 </p>
 
 ---
@@ -148,7 +167,7 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
 
 <div align="center">
 
-### 만들고, 부딪히고, 배우고, 개선합니다. 🔁
+### 만들고, 배포하고, 부딪히고, 다시 개선합니다. 🔁
 
 <sub>방문해 주셔서 감사합니다.</sub>
 
