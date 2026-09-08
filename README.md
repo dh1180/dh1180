@@ -5,7 +5,7 @@
 ### 👋 안녕하세요, 김동현입니다.
 
 **웹 서비스를 직접 만들고 배포한 뒤, 운영하면서 발견한 문제를 계속 개선해 나가는 개발자입니다.**  
-**Django와 Spring Boot를 중심으로 백엔드를 개발하고, React · React Native를 활용한 프론트엔드와 모바일 앱도 직접 구현합니다.**
+**Django와 Spring Boot를 중심으로 백엔드를 개발하고, 클라우드 배포와 필요한 프론트엔드·모바일 영역까지 직접 다룹니다.**
 
 <p>
   <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/기술%20블로그-000000?style=for-the-badge&logo=tistory&logoColor=white" /></a>
@@ -20,10 +20,11 @@
 ## 🚀 소개
 
 - 🌐 **Django · Spring Boot · ASP.NET Core**를 활용해 여러 웹 서비스를 직접 개발해 왔습니다.
-- 📱 웹뿐 아니라 **React Native · Expo · TypeScript**를 활용한 모바일 앱도 직접 설계하고 구현하고 있습니다.
-- 🧩 **소셜 로그인 · JWT 인증 · 데이터베이스 모델링 · REST API · 웹 크롤링 · 외부 API 연동** 등 서비스의 핵심 기능을 구현해 왔습니다.
-- 🚀 개발에서 끝내지 않고 **Docker · Railway · Vercel · Azure · PythonAnywhere · Fly.io** 등을 이용해 실제 서비스로 배포하고 운영해 본 경험이 있습니다.
-- 🔧 로컬에서는 보이지 않던 **DB · ORM · 인증 · 배포 · 도메인 · 프론트엔드 문제**를 직접 분석하고 해결하는 과정을 좋아합니다.
+- 🧩 **GitHub App/OAuth · JWT 인증 · 데이터베이스 모델링 · REST API · 웹 크롤링 · 외부 API 연동** 등 서비스의 핵심 기능을 구현해 왔습니다.
+- 🤖 Spring Boot와 **FastAPI 기반 AI 서버를 연동**하고, 시간이 오래 걸리는 작업을 `jobId → Callback` 방식의 비동기 구조로 연결한 경험이 있습니다.
+- ☁️ **AWS VPC · ALB · EC2 · RDS · ECR · SSM**, Docker, GitHub Actions 등을 활용해 애플리케이션을 직접 배포하고 CI/CD 흐름을 구성해 봤습니다.
+- 🔐 외부 서비스의 Access Token과 같은 민감한 데이터를 **AES-256-GCM으로 암호화해 저장**하는 등 실제 서비스에서 필요한 인증·보안 문제도 함께 다뤄 왔습니다.
+- 📱 웹뿐 아니라 **React · React Native · Expo · TypeScript**를 활용한 프론트엔드와 모바일 앱도 직접 구현하고 있습니다.
 - 📈 특히 **K-unirank**처럼 직접 만든 서비스를 장기간 운영하면서 사용자 경험과 데이터 구조를 계속 개선해 나가는 과정에 관심이 많습니다.
 - ✍️ 개발 중 부딪힌 문제와 해결 과정은 [기술 블로그](https://dong1936.tistory.com/)에 꾸준히 기록하고 있습니다.
 
@@ -103,8 +104,6 @@ React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21�
 
 `TypeScript` `React Native` `Expo` `TTS` `Spaced Repetition`
 
-🔗 **개발 기록:** [기술 블로그 글 보기](https://dong1936.tistory.com/86)
-
 </td>
 </tr>
 </table>
@@ -113,23 +112,24 @@ React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21�
 
 ## 🤝 팀 프로젝트 & 활동
 
-- 🥇 **2022 슬기로운 코딩생활 최우승 · LOS** — Arduino/C++와 초음파 센서, Ubidots를 활용한 지하철 잔여좌석 확인 시스템 MVP 개발
+- 🏅 **멋쟁이사자처럼 대학 14기 중앙 해커톤 LIKELION TRACK 입상 · [Contextory](https://github.com/kau-likelion-14th-hackathon/Contextory_BackEnd)** — AI 기반 GitHub PR 분석 및 프로젝트 기록 관리 서비스. **Spring Boot 백엔드와 AWS 배포**를 담당했으며 GitHub App OAuth, Access/Refresh Token 관리, PR·Diff 조회, 프로젝트 권한 관리, JWT 인증, FastAPI 연동과 비동기 Callback 구조를 구현했습니다. AWS에서는 VPC · ALB · EC2 · RDS를 구성하고, GitHub Actions → ECR → SSM으로 이어지는 배포 흐름을 만들었습니다. Access Token은 AES-256-GCM으로 암호화해 저장했습니다. · [개발 기록](https://dong1936.tistory.com/86)
+- 🚀 **멋쟁이사자처럼 대학 13기 중앙 해커톤 2차 예선 진출 · HiDaddy** — 247팀 중 48팀까지 진출. Spring Boot 백엔드 개발과 소셜 로그인 및 사용자 기능 구현 경험
+- 🥇 **2022 슬기로운 코딩생활 최우승 · [LOS](https://github.com/dh1180/LOS)** — Arduino/C++와 초음파 센서, Ubidots를 활용한 지하철 잔여좌석 확인 시스템 MVP 개발
 - 🏆 **ICT 창업 메이커톤 우수상 · GiTeuk** — 기부금의 흐름을 확인할 수 있는 기부 인프라 및 커머스 플랫폼 개발
-- 🚀 **멋쟁이사자처럼 중앙 해커톤 2차 예선 진출 · HiDaddy** — Spring Boot 백엔드 개발, 소셜 로그인 및 사용자 기능 구현
-- 🧑‍💻 개인 프로젝트뿐 아니라 팀 프로젝트에서도 **API 설계 · 인증 · 데이터 처리 · 배포 환경의 문제를 해결하는 백엔드 역할**을 경험했습니다.
 
 ---
 
 ## 🛠️ 주로 해온 것
 
 ```text
-Backend      → Django · Spring Boot · ASP.NET Core · REST API
-Data         → PostgreSQL · MySQL · Azure SQL · Crawling · Public API
-Frontend     → JavaScript · TypeScript · React · HTML · CSS
-Mobile       → React Native · Expo · Local Storage · TTS
-Auth         → Social Login · JWT · Session / Cookie
-Deploy       → Docker · Railway · Vercel · Azure · PythonAnywhere · Fly.io
-Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비스 개선
+Backend       → Django · Spring Boot · ASP.NET Core · REST API
+Integration   → GitHub App/OAuth · FastAPI · Async Callback · External API
+Data          → PostgreSQL · MySQL · Azure SQL · Crawling · Public API
+Frontend      → JavaScript · TypeScript · React · HTML · CSS
+Mobile        → React Native · Expo · Local Storage · TTS
+Auth/Security → JWT · Social Login · Session/Cookie · AES-256-GCM
+Cloud/CI/CD   → AWS · Docker · GitHub Actions · Railway · Vercel · Azure
+Operation     → DB/ORM 오류 · 배포 문제 · 도메인 · SEO · 서비스 개선
 ```
 
 ---
@@ -143,7 +143,7 @@ Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비�
 
 ### 백엔드 & 데이터베이스
 <p>
-  <img src="https://skillicons.dev/icons?i=django,spring,dotnet,postgres,mysql" />
+  <img src="https://skillicons.dev/icons?i=django,spring,dotnet,fastapi,postgres,mysql" />
 </p>
 
 ### 프론트엔드 & 모바일
@@ -151,9 +151,14 @@ Operation    → DB / ORM 오류 · 배포 문제 · 도메인 · SEO · 서비�
   <img src="https://skillicons.dev/icons?i=react,vite,bootstrap" />
 </p>
 
-### 배포 & 개발 도구
+### 클라우드 & 배포
 <p>
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,linux,vercel,azure,vscode,idea" />
+  <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,vercel,azure" />
+</p>
+
+### 개발 도구
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,idea" />
 </p>
 
 ---
