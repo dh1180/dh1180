@@ -112,7 +112,7 @@ React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21�
 
 ## 🤝 팀 프로젝트 & 활동
 
-- 🏅 **멋쟁이사자처럼 대학 14기 중앙 해커톤 LIKELION TRACK 입상 · [Contextory](https://github.com/kau-likelion-14th-hackathon/Contextory_BackEnd)** — AI 기반 GitHub PR 분석 및 프로젝트 기록 관리 서비스. **Spring Boot 백엔드와 AWS 배포**를 담당하고 GitHub OAuth, PR·Diff 조회, JWT 인증, FastAPI 연동 및 CI/CD 환경을 구현했습니다. · [개발 기록](https://dong1936.tistory.com/86)
+- 🏅 **멋쟁이사자처럼 대학 14기 중앙 해커톤 LIKELION TRACK 입상 · [Contextory](https://github.com/kau-likelion-14th-hackathon/Contextory_BackEnd)** — AI 기반 GitHub PR 분석 서비스, Spring Boot 백엔드 및 AWS 배포 담당
 - 🚀 **멋쟁이사자처럼 대학 13기 중앙 해커톤 2차 예선 진출 · HiDaddy** — 247팀 중 48팀까지 진출. Spring Boot 백엔드 개발과 소셜 로그인 및 사용자 기능 구현 경험
 - 🥇 **2022 슬기로운 코딩생활 최우승 · [LOS](https://github.com/dh1180/LOS)** — Arduino/C++와 초음파 센서, Ubidots를 활용한 지하철 잔여좌석 확인 시스템 MVP 개발
 - 🏆 **ICT 창업 메이커톤 우수상 · GiTeuk** — 기부금의 흐름을 확인할 수 있는 기부 인프라 및 커머스 플랫폼 개발
