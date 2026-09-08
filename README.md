@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:161B22,100:1F6FEB&text=Donghyun%20Kim&fontColor=FFFFFF&fontSize=48&fontAlignY=42&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0D1117,50:161B22,100:1F6FEB&text=Donghyeon%20Kim&fontColor=FFFFFF&fontSize=48&fontAlignY=42&animation=fadeIn" width="100%" />
 
 ### 👋 안녕하세요, 김동현입니다.
 
