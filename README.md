@@ -5,7 +5,7 @@
 ### 👋 안녕하세요, 김동현입니다.
 
 **웹 서비스를 직접 만들고 배포한 뒤, 운영하면서 발견한 문제를 계속 개선해 나가는 개발자입니다.**  
-**Django와 Spring Boot를 중심으로 백엔드를 개발하고, 클라우드 배포와 필요한 프론트엔드·모바일 영역까지 직접 다룹니다.**
+**Django와 Spring Boot, ASP.NET Core를 중심으로 백엔드를 개발하고, 필요한 프론트엔드·모바일·클라우드 영역까지 직접 다룹니다.**
 
 <p>
   <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/기술%20블로그-000000?style=for-the-badge&logo=tistory&logoColor=white" /></a>
@@ -53,13 +53,13 @@
 
 ### 🟡 [GoldenDaughter](https://github.com/dh1180/GoldenDaughter_FrontEnd)
 
-**React + Spring Boot 풀스택 서비스**
+**Streak · 체크인 기반 개인 기록 앱**
 
-기록 관리, 일일 체크인, 사용자 랭킹, 웹 크롤링, JWT 인증과 Android WebView 앱까지 구현한 모바일 중심 서비스입니다.
+현재 연속 기록과 일일 체크인을 관리하고, 동기부여 콘텐츠와 통계를 제공하는 React 기반 서비스입니다.
 
-프론트엔드부터 백엔드, 데이터베이스, 배포까지 하나의 서비스로 연결했습니다.
+브라우저 localStorage에 개인 기록을 저장하며, Android WebView 앱과 GitHub Actions 기반 콘텐츠 갱신·APK 빌드를 함께 운영합니다.
 
-`React` `Spring Boot` `PostgreSQL` `Vercel` `Railway`
+`React` `Vite` `localStorage` `Android WebView` `Vercel`
 
 🔗 **서비스:** [golden-daughter.kro.kr](https://golden-daughter.kro.kr)
 
@@ -68,17 +68,32 @@
 <tr>
 <td width="50%" valign="top">
 
+### 📖 [Read.me](https://github.com/dh1180/Read.md) · NEW
+
+**독서록 공유 · GitHub README 내보내기 서비스**
+
+카카오 도서 검색으로 책 정보를 불러와 별점, 한 줄 평, 인용문과 감상을 기록하고 다른 독서록을 검색·정렬·좋아요로 탐색할 수 있습니다.
+
+페이지별 Markdown 메모와 최근 독서 기록의 GitHub 프로필용 Markdown 내보내기를 구현했습니다.
+
+`C#` `.NET 10` `ASP.NET Core MVC` `EF Core` `jQuery` `Azure`
+
+</td>
+<td width="50%" valign="top">
+
 ### 🧑‍💻 [Devroup](https://github.com/dh1180/Devroup)
 
 **개발자 토이 프로젝트 공유 커뮤니티**
 
 개발자들이 자신의 토이 프로젝트를 등록하고 공유할 수 있도록 만든 커뮤니티 서비스입니다.
 
-Django 기반으로 회원 · 게시글 · 검색 · 정렬 · 소셜 로그인 등을 구현하고, MySQL과 Docker를 활용해 실제 서비스 배포까지 진행했습니다.
+Django 기반으로 회원 · 게시글 · 검색 · 정렬 · 소셜 로그인을 구현하고, MySQL과 Docker를 활용해 실제 서비스 배포까지 진행했습니다.
 
 `Python` `Django` `MySQL` `JavaScript` `Docker`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🌌 [APOD](https://github.com/dh1180/APOD)
@@ -92,15 +107,15 @@ NASA APOD API를 활용해 매일 공개되는 우주 사진과 정보를 블로
 `C#` `ASP.NET Core` `JavaScript` `Azure SQL`
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
-### 🇨🇳 [HSK Plus Ultra](https://github.com/dh1180/HSK_Plus_Ultra) · NEW
+### 🇨🇳 [HSK Plus Ultra](https://github.com/dh1180/HSK_Plus_Ultra)
 
-**HSK 3.0 어휘를 필요한 시점에 다시 보여주는 모바일 단어 학습 앱**
+**HSK 3.0 모바일 단어 학습 앱**
 
-React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21일 → 장기 기억`으로 이어지는 복습 로직을 직접 설계했습니다. 급수별 어휘 학습, 복습 우선 학습량 구성, 중국어 TTS, 로컬 학습 진행 저장 등을 구현했습니다.
+React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21일 → 장기 기억`으로 이어지는 복습 로직을 직접 설계했습니다.
+
+급수별 어휘 학습, 복습 우선 학습량 구성, 중국어 TTS, 로컬 학습 진행 저장 등을 구현했습니다.
 
 `TypeScript` `React Native` `Expo` `TTS` `Spaced Repetition`
 
@@ -123,10 +138,10 @@ React Native와 Expo로 구현하고 있으며, `30분 → 3일 → 7일 → 21�
 
 ```text
 Backend       → Django · Spring Boot · ASP.NET Core · REST API
-Integration   → GitHub App/OAuth · FastAPI · Async Callback · External API
-Data          → PostgreSQL · MySQL · Azure SQL · Crawling · Public API
+Integration   → GitHub App/OAuth · Kakao OAuth · FastAPI · Async Callback · External API
+Data          → PostgreSQL · MySQL · SQL Server · SQLite · Crawling · Public API
 Frontend      → JavaScript · TypeScript · React · HTML · CSS
-Mobile        → React Native · Expo · Local Storage · TTS
+Mobile        → React Native · Expo · Android WebView · Local Storage · TTS
 Auth/Security → JWT · Social Login · Session/Cookie · AES-256-GCM
 Cloud/CI/CD   → AWS · Docker · GitHub Actions · Railway · Vercel · Azure
 Operation     → DB/ORM 오류 · 배포 문제 · 도메인 · SEO · 서비스 개선
@@ -143,7 +158,7 @@ Operation     → DB/ORM 오류 · 배포 문제 · 도메인 · SEO · 서비�
 
 ### 백엔드 & 데이터베이스
 <p>
-  <img src="https://skillicons.dev/icons?i=django,spring,dotnet,fastapi,postgres,mysql" />
+  <img src="https://skillicons.dev/icons?i=django,spring,dotnet,fastapi,postgres,mysql,sqlite" />
 </p>
 
 ### 프론트엔드 & 모바일
