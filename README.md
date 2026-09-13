@@ -68,15 +68,17 @@
 <tr>
 <td width="50%" valign="top">
 
-### 📖 [Read.me](https://github.com/dh1180/Read.md) · NEW
+### 📖 [Read.me](https://github.com/dh1180/Read.md)
 
-**독서록 공유 · GitHub README 내보내기 서비스**
+**마크다운 기반 독서 기록 & 독서록 공유 플랫폼**
 
-카카오 도서 검색으로 책 정보를 불러와 별점, 한 줄 평, 인용문과 감상을 기록하고 다른 독서록을 검색·정렬·좋아요로 탐색할 수 있습니다.
+카카오 도서 검색으로 책 정보를 불러와 별점, 한 줄 평, 실시간 마크다운(Markdown) 에디터로 감상을 기록하고 독서록을 공유·탐색할 수 있습니다.
 
-페이지별 Markdown 메모와 최근 독서 기록의 GitHub 프로필용 Markdown 내보내기를 구현했습니다.
+실시간 마크다운 미리보기 탭, SEO 최적화, 카카오 소셜 로그인 및 GitHub Actions 기반 Azure CI/CD 자동 배포를 구축했습니다.
 
-`C#` `.NET 10` `ASP.NET Core MVC` `EF Core` `jQuery` `Azure`
+`C#` `.NET 10` `ASP.NET Core MVC` `EF Core` `Azure` `GitHub Actions`
+
+🔗 **서비스:** [readme-f7c0beg0gkafe9cp.koreacentral-01.azurewebsites.net](https://readme-f7c0beg0gkafe9cp.koreacentral-01.azurewebsites.net)
 
 </td>
 <td width="50%" valign="top">
