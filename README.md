@@ -48,7 +48,7 @@ FlyWire whole-connectome에서 유래한 spiking simulation을 브라우저 게�
 - Mushroom Body-inspired final boss memory
 - 30 Mutations / 15 Synaptic Fusions
 
-[Repository →](https://github.com/dh1180/FlySwarm)
+[▶ Play Live →](https://jolly-maamoul-773d3c.netlify.app/) · [Repository →](https://github.com/dh1180/FlySwarm)
 
 </td>
 <td width="50%" valign="top">
@@ -89,6 +89,8 @@ FlyWire whole-connectome에서 유래한 spiking simulation을 브라우저 게�
 5단계 Core Boss 이후에는 Mushroom Body-inspired plastic memory를 가진 Virtual Drosophila와 1:1 최종전을 진행합니다.
 
 React · TypeScript · Canvas · Web Worker · Web Audio · Spiking Simulation
+
+🔗 **Live:** [Play FlySwarm](https://jolly-maamoul-773d3c.netlify.app/)
 
 </td>
 <td width="50%" valign="top">
