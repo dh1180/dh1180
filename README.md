@@ -55,18 +55,18 @@ FlyWire whole-connectome에서 유래한 spiking simulation을 브라우저 게�
 
 ### 🎓 K-unirank
 
-**대학 입결 · 선호도 · 공식 공시 지표 통합 서비스**
+**대학 입결 · 선호도 · AI 입결 · 공식 공시 지표 통합 서비스**
 
-공개 입시 데이터와 대학 공시 정보를 구조화하고, 사용자 VS 선택 기반 선호도 랭킹을 운영합니다.
+전국 363개 대학의 공식 입시 데이터와 공시 지표를 구조화하고, AI 입결 검색·VS 선호도 랭킹·4개 국어 글로벌 SEO까지 직접 운영합니다.
 
-- Django / PostgreSQL
-- 입결 수집·정규화
-- Glicko-2 ranking
-- 대학알리미 공식 지표
-- SEO / Analytics
-- Railway 운영
+- Spring Boot 3.5 (Java 21) · Next.js 16 · PostgreSQL
+- 전국 363개 대학 · 5.4만+ 입결 · 공식 PDF 798건
+- AI 입결 검색 (LLM + 모집요강 PDF 근거)
+- Glicko-2 VS 선호도 랭킹 v2 · 7대 공시 지표
+- 한·영·일·중 다국어 & 글로벌 SEO (`hreflang` · `sitemap` 11,556 URL)
+- Google/카카오 OAuth · Swagger UI · Railway 운영
 
-[Repository →](https://github.com/dh1180/K-unirank_v2) · [Service →](https://k-unirank.com)
+[Service →](https://k-unirank.com) · [BackEnd →](https://github.com/dh1180/K-unirank_BackEnd) · [FrontEnd →](https://github.com/dh1180/K-unirank_FrontEnd)
 
 </td>
 </tr>
@@ -95,17 +95,17 @@ React · TypeScript · Canvas · Web Worker · Web Audio · Spiking Simulation
 </td>
 <td width="50%" valign="top">
 
-### 🎓 [K-unirank](https://github.com/dh1180/K-unirank_v2)
+### 🎓 [K-unirank](https://k-unirank.com)
 
-**대학 입결 · 사용자 선호도 · 공식 공시 지표 통합 서비스**
+**전국 363개 대학 입결 · AI 검색 · 선호도 · 공식 공시 지표 통합 서비스**
 
-대학별 입시 결과와 대학알리미 공식 지표를 구조화하고, 사용자 VS 선택을 기반으로 대학 선호도 랭킹을 제공합니다.
+Django에서 **Spring Boot 3.5 + Next.js 16** 통합 아키텍처로 전환해 실서비스 운영 중입니다.
 
-입시 데이터 수집, Glicko-2, 대학·캠퍼스 정규화, SEO와 운영 자동화까지 직접 확장하고 있습니다.
+5.4만+건 입결·공식 PDF 798건, AI 입결 Q&A, Glicko-2 v2, 한·영·일·중 다국어 SEO(`hreflang`·SSR 현지화)까지 직접 설계·운영하고 있습니다.
 
-Python · Django · PostgreSQL · Docker · Railway
+Java 21 · Spring Boot · Next.js · TypeScript · PostgreSQL · Docker · Railway
 
-🔗 [k-unirank.com](https://k-unirank.com)
+🔗 [k-unirank.com](https://k-unirank.com) · [BackEnd](https://github.com/dh1180/K-unirank_BackEnd) · [FrontEnd](https://github.com/dh1180/K-unirank_FrontEnd)
 
 </td>
 </tr>
@@ -198,7 +198,7 @@ Python · Django · MySQL · JavaScript · Docker
 Backend        → Django · Spring Boot · ASP.NET Core · FastAPI · REST API
 Data           → PostgreSQL · MySQL · SQL Server · SQLite · Crawling · Public API
 AI/Simulation  → Spiking Neural Network · Reward Learning · Web Worker · Canvas
-Frontend       → React · Astro · TypeScript · JavaScript · Tailwind CSS · HTML · CSS
+Frontend       → Next.js · React · Astro · TypeScript · JavaScript · Tailwind CSS · HTML · CSS
 Mobile         → React Native · Expo · Android WebView · TTS
 Auth/Security  → JWT · OAuth · Session/Cookie · AES-256-GCM
 Cloud/CI/CD    → AWS · Docker · GitHub Actions · Railway · Azure · Vercel · Cloudflare
@@ -224,7 +224,7 @@ Operation      → Deployment · Domain/DNS · SEO · Monitoring · Service Impr
 ### Frontend & Runtime
 
 <p>
-  <img src="https://skillicons.dev/icons?i=react,astro,vite,tailwind,bootstrap" />
+  <img src="https://skillicons.dev/icons?i=nextjs,react,astro,vite,tailwind,bootstrap" />
 </p>
 
 ### Cloud & Deployment
