@@ -1,15 +1,16 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0B1020,55:1D4ED8,100:3182F6&text=Donghyeon%20Kim&fontColor=FFFFFF&fontSize=46&fontAlignY=40&animation=fadeIn&desc=Backend%20%C2%B7%20Full-Stack%20%C2%B7%20Data%20%26%20AI%20Simulation&descColor=DBEAFE&descSize=16&descAlignY=63" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:0B1020,55:1D4ED8,100:3182F6&text=Donghyeon%20Kim&fontColor=FFFFFF&fontSize=46&fontAlignY=40&animation=fadeIn&desc=Backend%20%C2%B7%20Full-Stack%20%C2%B7%20Data%20%C2%B7%20AI&descColor=DBEAFE&descSize=16&descAlignY=63" width="100%" />
 
 <h3>Build · Ship · Operate · Improve</h3>
 
 <p>
-  백엔드를 중심으로 <b>실제 운영되는 웹 서비스 · 공개 데이터 파이프라인 · AI 시뮬레이션</b>을 직접 설계하고 배포합니다.
+  백엔드를 중심으로 <b>실제 운영되는 글로벌 웹 서비스 · 공개 데이터 파이프라인 · AI 기능</b>을 직접 설계하고 배포합니다.
 </p>
 
 <p>
-  <a href="https://k-unirank.com"><img src="https://img.shields.io/badge/Live%20Service-k--unirank.com-3182F6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://k-unirank.com"><img src="https://img.shields.io/badge/Live-k--unirank.com-3182F6?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://econorank.com"><img src="https://img.shields.io/badge/Live-econorank.com-0F766E?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://dong1936.tistory.com"><img src="https://img.shields.io/badge/Tech%20Blog-Tistory-111827?style=for-the-badge&logo=tistory&logoColor=white" /></a>
   <a href="https://solved.ac/dh1180"><img src="https://img.shields.io/badge/Solved.ac-dh1180-17CE3A?style=for-the-badge&logo=solved.ac&logoColor=white" /></a>
 </p>
@@ -83,23 +84,24 @@ Django 단일 서비스에서 **Spring Boot 3.5 + Next.js 16** 통합 아키텍�
 </td>
 <td width="50%" valign="top">
 
-### 🪰 FlySwarm
+### 🌍 EconoRank
 
-> **Whole-connectome 기반 브라우저 생존 게임**
+> **글로벌 거시경제(IMF WEO) · 기업 시가총액 · 78개 언어 경제 커뮤니티 플랫폼**
 
-수백 마리의 Utility AI 초파리와 **FlyWire whole-connectome**에서 유래한 LIF spiking simulation 보스를 브라우저 감각-운동 루프에 결합했습니다.
+전 세계 국가별 경제 지표와 상장사 시가총액 데이터를 실시간으로 탐색·비교하고, 다국어 번역을 지원하는 글로벌 경제 인텔리전스 서비스입니다.
 
-- **신경망 규모**: **138,639** neuron slots · **15,091,983** directed synaptic pairs
-- **실시간 런타임**: Web Worker 기반 whole-brain spiking simulation + 60fps Canvas 렌더링
-- **학습 & 기억**: Dopamine-style reward learning · 5단계 Core Boss 이후 Mushroom Body plastic memory 기반 1:1 최종전
-- **게임플레이**: 30 Mutations · 15 Synaptic Fusions · Web Audio 프로시저럴 사운드
+- **IMF WEO 거시경제**: 명목 GDP · 1인당 GDP · PPP GDP 순위 · 2022–2031 실제/전망 추이 차트 · 다국가 비교 & CSV 내보내기
+- **실시간 글로벌 시가총액**: 30+개국 거래소 · 7대 권역 · **11,000+ 상장사** (Global Top 250 / 권역·거래소별 Top 100, 15분 TTL 캐시)
+- **78개 언어 & RTL**: Edge GeoIP(`CF-IPCountry`) 자동 언어 분기 + 아랍어·히브리어·페르시아어 등 RTL 레이아웃 지원
+- **글로벌 커뮤니티**: 국가 고정 계정·익명 글쓰기 · 실시간 GDP/시총 스탯 카드 임베드 · LibreTranslate + DB 캐시 온디맨드 번역
 
-`React` `TypeScript` `Canvas` `Web Worker` `Web Audio` `Spiking Simulation`
+`Java 17` `Spring Boot 3.5` `Next.js 16` `TypeScript` `PostgreSQL` `LibreTranslate` `Docker`
 
 <br/>
 
-[![Play Live](https://img.shields.io/badge/Play%20Live-FlySwarm-10B981?style=flat-square&logo=netlify&logoColor=white)](https://jolly-maamoul-773d3c.netlify.app/)
-[![Repo](https://img.shields.io/badge/Repo-FlySwarm-181717?style=flat-square&logo=github)](https://github.com/dh1180/FlySwarm)
+[![Live](https://img.shields.io/badge/Live-econorank.com-0F766E?style=flat-square)](https://econorank.com)
+[![BackEnd](https://img.shields.io/badge/Repo-BackEnd-181717?style=flat-square&logo=github)](https://github.com/dh1180/EconoRank_BackEnd)
+[![FrontEnd](https://img.shields.io/badge/Repo-FrontEnd-181717?style=flat-square&logo=github)](https://github.com/dh1180/EconoRank_FrontEnd)
 
 </td>
 </tr>
@@ -154,7 +156,7 @@ Django 단일 서비스에서 **Spring Boot 3.5 + Next.js 16** 통합 아키텍�
 </tr>
 </table>
 
-> **Also built:** 🟡 [GoldenDaughter](https://github.com/dh1180/GoldenDaughter_FrontEnd) (Streak·체크인 기록 앱) · 🌌 [APOD](https://github.com/dh1180/APOD) (NASA 오늘의 천문 사진) · 📂 [전체 저장소 보기](https://github.com/dh1180?tab=repositories)
+> **Also built:** 🪰 [FlySwarm](https://github.com/dh1180/FlySwarm) (Whole-connectome 브라우저 생존 게임 · [Live](https://jolly-maamoul-773d3c.netlify.app/)) · 🟡 [GoldenDaughter](https://github.com/dh1180/GoldenDaughter_FrontEnd) (Streak·체크인 기록 앱) · 🌌 [APOD](https://github.com/dh1180/APOD) (NASA 오늘의 천문 사진) · 📂 [전체 저장소 보기](https://github.com/dh1180?tab=repositories)
 
 ---
 
